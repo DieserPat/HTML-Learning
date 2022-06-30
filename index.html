@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
-<body id="bodyType">
+<body id="bodyType" style="text-align:center">
   
     <h1 style="font-size:60px;color:blue">My first heading</h1>
     <h2 style="color: green;">is this working?</h2>
 <p style="font-family:verdana">My first paragraph</p>
 <p>what <u>the</u> <b>bambosle</b></p>
-<pre style="background-color:tomato">
+<pre style="background-color:tomato; text-align: center;">
     thats one paragraph
 
     and here is <i>another<sub>1</sub></i> 
@@ -26,6 +27,36 @@
 <a href="https://www.youtube.com/watch?v=KQ9w0JYmvK8" title="this is a funny video" style="font-size:300%; ">link is here</a>
 <br>
 <img src="img_girl.jpg" alt="you cannot view this picture for some reason please check code in line 15" width="500" height="600">
+</p>
+<table style="width:100%">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+</table>
+<p style="text-align:center">
+<img src="workplace.jpg" alt="computer workplace with coffee" usemap="#workmap">
+<map name="workmap">
+<area shape="rect" coords="34,44,270,350" alt="Computer" title="this is a computer" href ="https://www.w3schools.com/html/computer.htm">
+<area shape="rect" coords="290,172,333,250" alt="Phone" title="this is a phone" href="https://www.w3schools.com/html/phone.htm">
+<area shape="circle" coords="337,300,44" alt="Coffee" title="this is coffee" href="https://www.w3schools.com/html/coffee.htm" onclick="myFunction()">
+</map>
+<script>
+    function myFunction() {
+        alert("You clicked the coffee cup!");
+    }
+</script>
 </p>
 </body>
 

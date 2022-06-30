@@ -2,3 +2,7 @@
 {
     background-color: greenyellow;
 }
+th, td{
+    border:3px solid red;
+    background-color: #96D4D4;
+}
