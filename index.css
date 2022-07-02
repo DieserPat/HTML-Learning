@@ -6,3 +6,10 @@ th, td{
     border:3px solid red;
     background-color: #96D4D4;
 }
+img{
+    border-style: dotted solid;
+    border-width: 10px;
+    border-color:blue;
+    margin: 50px;
+    
+}
